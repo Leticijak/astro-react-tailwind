@@ -4,7 +4,7 @@ const Counter = () => {
   const [counter, setcounter] = useState(0);
   return (
     <>
-      <div className='p-24 border  border-neutral-400 rounded-md bg-white'>
+      <div className='p-24 border  border-neutral-400 rounded-md bg-white text-black'>
         <h1 className='text-center text-2xl mb-8'>React Component</h1>
         <div className='flex mx-auto space-x-8 justify-center items-center'>
           <button
